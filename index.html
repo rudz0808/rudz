@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú de Proyectos</title>
+  <style>
+    /* Fondo animado */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+      background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 40px;
+      color: #fff;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 15px 0;
+    }
+
+    a {
+      display: inline-block;
+      padding: 15px 40px;
+      background: rgba(0, 0, 0, 0.4);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 1.1em;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease;
+      backdrop-filter: blur(6px);
+    }
+
+    a:hover {
+      background: rgba(0, 0, 0, 0.6);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <h1>Menú de Proyectos</h1>
+  <ul>
+    <li><a href="video1/index.html" target="centrale">Video 1</a></li>
+    <li><a href="video2/index.html" target="centrale">Video 2</a></li>
+    <li><a href="video3/index.html" target="centrale">Video 3</a></li>
+    <li><a href="video4/index.html" target="centrale">Video 4</a></li>
+    <li><a href="LocalStorage/index.html" target="centrale">LocalStorage</a></li>
+  </ul>
+</body>
+</html>
